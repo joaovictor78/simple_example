@@ -1,6 +1,7 @@
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:teste/pagina1.dart';
-import 'package:teste/pagina2.dart';
+
+import 'pagina2.dart';
 
 class AppModule extends Module {
   @override

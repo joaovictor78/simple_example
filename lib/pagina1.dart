@@ -13,7 +13,9 @@ class _Pagina1State extends State<Pagina1> {
   Widget build(BuildContext context) {
     return TextButton(
       onPressed: () {
-        Modular.to.pushNamed('/pagina', arguments: 'funcionou');
+        Modular.to.pushNamed('/pagina',
+            arguments:
+                'ESSE É MEU DADO, DÊ UM REFRESH NO NAVEGADOR OU UM CONTROL + S PARA UM HOT RELOAD E O BUG OCORRERÁ');
       },
       child: Text('Click aqui'),
     );
